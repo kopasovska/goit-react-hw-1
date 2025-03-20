@@ -1,0 +1,66 @@
+.profileCard {
+  margin: 24px;
+
+  display: flex;
+  flex-direction: column;
+  border-radius: 24px;
+  border: 2px solid #000;
+  overflow: hidden;
+
+  width: 280px;
+  height: 320px;
+}
+
+.profileCardInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  background-color: rgb(249, 245, 245);
+}
+
+.profileCardInfoAvatar {
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  background-color: rgb(44, 39, 39);
+  margin-bottom: 8px;
+}
+
+.profileCardMainText {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.profileCardText {
+  font-size: 18px;
+  color: rgb(139, 134, 134);
+}
+
+.profileCardStatsList {
+  display: flex;
+  flex-grow: 1;
+  background-color: rgb(223, 215, 215);
+  border-top: 2px solid rgb(111, 106, 106);
+}
+
+.profileCardStatsItem {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileCardStatsItem:not(:last-child) {
+  border-right: 2px solid rgb(111, 106, 106);
+}
+
+.statsName {
+}
+
+.statsValue {
+  font-weight: 700;
+}

@@ -1,0 +1,26 @@
+.transactionTable {
+  margin: 0 24px 24px;
+  border-collapse: collapse;
+  width: 600px;
+}
+
+.transactionTableHeader {
+  background-color: rgb(28, 28, 28);
+  color: #fff;
+}
+
+.transactionTableTh,
+.transactionTableTd {
+  border: 1px solid rgb(28, 28, 28);
+  padding: 4px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.transactionTableTr:nth-child(even) {
+  background-color: #dbdada;
+}
+
+.transactionTableTr:hover {
+  background-color: #aba7a7;
+}

@@ -1,0 +1,17 @@
+.friendItemAvatar {
+  margin: 0 auto 16px auto;
+}
+
+.friendItemName {
+  text-align: center;
+  font-size: 20px;
+}
+
+.friendItemStatus {
+  color: red;
+  text-align: center;
+}
+
+.friendItemStatus.online {
+  color: green;
+}
